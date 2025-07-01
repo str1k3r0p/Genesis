@@ -4,8 +4,6 @@
 
 **No installation required. No server interaction. 100% client-side.**
 
----
-
 ##  Features
 
 ### Dual Generation Modes
@@ -16,7 +14,6 @@
 - **Advanced Mode**  
   Unfold the **Advanced Configuration** panel to customize your generation logic — similar to command-line tools like `crunch` or `psudohash`.
 
----
 
 ### Powerful Mutation Engine
 
@@ -35,7 +32,6 @@
 - **Keyword Combination**  
   Combine multiple keywords in various permutations using custom separators. *(Advanced Mode)*
 
----
 
 ### 🔒 Browser-Based & Secure
 
@@ -56,9 +52,7 @@
 3. **Generate & Download**  
    - Click **Generate**
    - Wait for results (previewed in the text area)
-   - Click **Download .txt** to export your wordlist
 
----
 
 ## Credit
 
@@ -66,7 +60,4 @@ This web app is inspired by the excellent [psudohash](https://github.com/t3l3mac
 
 Genesis is a modern, browser-based reimplementation that aims to bring the same power to a graphical interface.
 
----
-
-## 📂 Repository Structure
 
