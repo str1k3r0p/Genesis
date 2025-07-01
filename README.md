@@ -1,62 +1,72 @@
-Genesis - Web-Based Password Generator
-Genesis is a modern, web-based password list generator that creates complex and effective wordlists from simple keywords. It brings intelligent mutation and combination logic into your browser, wrapped in a sleek, responsive interface with a "hacker" aesthetic.
+# 🧬 Genesis - Web-Based Password Generator
 
-Generate highly customized and effective password lists for security testing, brute-force attack simulations, and hash cracking, all without any installation.
+**Genesis** is a sleek, web-based password list generator designed for penetration testers, security researchers, and enthusiasts. With just a few keywords, you can generate highly complex and effective wordlists using smart mutation and combination logic — all within your browser.
 
+**No installation required. No server interaction. 100% client-side.**
 
+---
 
-Features
-Dual Generation Modes:
+##  Features
 
-Automated Mode: For quick and effective password list generation. Simply enter a keyword, and Genesis uses a smart set of default mutations to create a common password list.
+### Dual Generation Modes
 
-Advanced Mode: Unfold the "Advanced Configuration" to get granular control over the generation process, mirroring the power of a command-line tool.
+- **Automated Mode**  
+  Quickly generate effective password lists with smart default mutations. Just input a keyword and click.
 
-Powerful Mutation Engine:
+- **Advanced Mode**  
+  Unfold the **Advanced Configuration** panel to customize your generation logic — similar to command-line tools like `crunch` or `psudohash`.
 
-Character Substitution: Replaces letters with common "leet" substitutes (e.g., a -> @, s -> $).
+---
 
-Case Variation: Generates various upper and lower case combinations.
+### Powerful Mutation Engine
 
-Number & Year Appending: Adds sequential numbers and a range of years in multiple formats.
+- **Character Substitution**  
+  Swap letters with common leet-style substitutions (e.g., `a → @`, `s → $`, etc.)
 
-Custom Paddings: Appends common or custom padding values (!, 123, !@#) to the beginning or end of passwords.
+- **Case Variation**  
+  Mix and match upper/lowercase variations for maximum coverage.
 
-Keyword Combination: (Advanced) Combine multiple keywords in various orders with custom separators.
+- **Number & Year Appending**  
+  Append sequences like `123`, or years like `1998`, `2024`, etc., in multiple formats.
 
+- **Custom Padding**  
+  Prefix or suffix your keywords with common or custom symbols (e.g., `!`, `@#`, `321`).
 
-Browser-Based & Secure:
+- **Keyword Combination**  
+  Combine multiple keywords in various permutations using custom separators. *(Advanced Mode)*
 
-No Installation: Runs entirely in your web browser. No need for Python or any dependencies.
+---
 
-Client-Side Only: All processing is done on your machine. Your keywords are never sent to a server.
+### 🔒 Browser-Based & Secure
 
-Safety Cap: Includes a generation limit of 50,000 passwords to prevent browser crashes from overly complex queries, ensuring a smooth experience.
+- **No Installation Required**  
+  Just open the HTML file — no Python, no dependencies.
 
-Easy Export:
+- **Client-Side Only**  
+  Everything runs in your browser. Your input never leaves your machine.
 
-Download your generated password list as a .txt file with a single click.
-
-How to Use
-Enter Your Keyword(s): Start by typing one or more comma-separated keywords into the input field.
-
-Choose Your Mode:
-
-For a quick list: Simply click the "Generate Passwords" button. Genesis will use its default automated settings.
-
-For a custom list: Click on "Advanced Configuration" to expand the options panel. Here you can fine-tune every aspect of the generation process.
-
-Generate & Download:
-
-After clicking "Generate," wait for the process to complete.
-
-The results will appear in the text area, along with a count of the generated passwords.
-
-Click the "Download .txt" button to save your list.
+- **Built-in Safety Cap**  
+  Limits output to **50,000 passwords** per session to prevent browser slowdowns or crashes.
 
 
-Credit
-This project is a web-based re-implementation and is heavily inspired by the original psudohash Python script created by Panagiotis Chartas (t3l3machus).
+2. **Choose Your Mode**  
+   - For a quick list, hit **Generate Passwords**
+   - For full control, open **Advanced Configuration** and customize your settings
 
-You can find the original command-line tool here:
-https://github.com/t3l3machus/psudohash
+3. **Generate & Download**  
+   - Click **Generate**
+   - Wait for results (previewed in the text area)
+   - Click **Download .txt** to export your wordlist
+
+---
+
+## Credit
+
+This web app is inspired by the excellent [psudohash](https://github.com/t3l3machus/psudohash) CLI tool created by [Panagiotis Chartas (t3l3machus)](https://github.com/t3l3machus).
+
+Genesis is a modern, browser-based reimplementation that aims to bring the same power to a graphical interface.
+
+---
+
+## 📂 Repository Structure
+
