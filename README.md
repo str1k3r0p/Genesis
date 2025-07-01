@@ -1,4 +1,4 @@
-# 🧬 Genesis - Web-Based Password Generator
+# Genesis - Web-Based Password Generator
 
 **Genesis** is a web-based password list generator designed for penetration testers, security researchers, and enthusiasts. With just a few keywords, you can generate highly complex and effective wordlists using smart mutation and combination logic — all within your browser.
 Experience the live application here: [Genesis Password Generator](https://str1k3r0p.github.io/Genesis/)
